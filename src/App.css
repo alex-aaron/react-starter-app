@@ -2,3 +2,16 @@
 body {
   padding: 10px;
 }
+
+.header {
+  text-align: center
+}
+
+.movieInputContainer {
+  padding: 10px;
+}
+
+.findMovieCard {
+  margin-left: 600px;
+  margin-right: 600px;
+}

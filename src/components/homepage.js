@@ -1,10 +1,11 @@
+import FindMovie from './findMovie';
 
 function Homepage(props){
   return (
     <div className="home">
-      <h1>Homepage</h1>
-      <h2>Added text</h2>
-      <h2>{props.firstName} is {props.age} years old.</h2>
+      <h1 className='header'>Movie Tracker</h1>
+      {/* <h2>{props.firstName} is {props.age} years old.</h2> */}
+      <FindMovie />
     </div>
   )
 }
